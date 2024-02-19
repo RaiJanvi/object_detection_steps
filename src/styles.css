@@ -1,0 +1,52 @@
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    background-color: #f2f2f2;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-file input[type="file"] {
+    display: none;
+  }
+  
+  .input-file label {
+    background-color: #888;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .input-file label:hover {
+    background-color: #666;
+  }
+  
+  .button {
+    background-color: #ccc;
+    color: black;
+    border: 2px solid #000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #bbb;
+  }
+  
